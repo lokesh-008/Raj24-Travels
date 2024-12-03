@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj24 Travels</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Raj24 Travels</h1>
+        <nav>
+            <a href="features.html">Features</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Simplify Your Travel Planning</h2>
+            <form id="travel-form">
+                <label for="start">Starting Point:</label>
+                <input type="text" id="start" placeholder="Enter start destination" required>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" placeholder="Enter end destination" required>
+                <label for="vehicle">Vehicle Type:</label>
+                <select id="vehicle" required>
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="bus">Bus</option>
+                </select>
+                <button type="submit">Estimate Cost</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Raj24 Travels</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
